@@ -159,7 +159,7 @@ hr {
 .sekt2 {
     max-width: 1920px;
     margin: 0 auto;
-    background-image: url(/hm9/img/chear.png);
+    background-image: url(/img/chear.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -522,4 +522,14 @@ h4 {
 
 .op:hover {
     color: #c9768d;
+}
+
+.imp:hover {
+    background: #c9768d;
+}
+
+.img5:hover {
+    border: 2px solid #c9768d;
+    border-radius: 60px;
+    background: #c9768d;
 }

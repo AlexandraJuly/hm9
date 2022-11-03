@@ -74,9 +74,6 @@ li {
 
 .button {
     display: inline-block;
-    border: 2px solid #F13C6E;
-    border-radius: 40px;
-    background: #FFFFFF;
 }
 
 .button1 {
@@ -89,9 +86,12 @@ li {
     text-align: center;
     color: #000000;
     width: 170px;
-    margin-top: 12px;
-    margin-bottom: 13px;
+    padding-top: 12px;
+    padding-bottom: 13px;
     display: block;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    background: #FFFFFF;
 }
 
 .box {
@@ -159,7 +159,7 @@ hr {
 .sekt2 {
     max-width: 1920px;
     margin: 0 auto;
-    background-image: url(/img/chear.png);
+    background-image: url(../img/chear.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,9 +191,6 @@ h1 {
 
 .button3 {
     display: inline-block;
-    background: #F13C6E;
-    border: 2px solid #FFFFFF;
-    border-radius: 40px;
     margin-top: 50px;
 }
 
@@ -208,9 +205,12 @@ h1 {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     width: 170px;
-    margin-top: 12px;
-    margin-bottom: 13px;
+    padding-top: 12px;
+    padding-bottom: 13px;
     display: block;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
 }
 
 .sekt3{
@@ -292,12 +292,13 @@ h2 {
     color: #FFFFFF;
     text-decoration: none;
     padding-top: 9px;
+    padding-bottom: 9px;
     display: block;
+    background: #F13C6E;
+    border-radius: 30px;
 }
 
 .buy1 {
-    background: #F13C6E;
-    border-radius: 30px;
     width: 130px;
     height: 35px;
     display: block;
@@ -381,8 +382,8 @@ h3 {
 
 .map{
     text-decoration: none;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     display: block;
     font-family: 'Roboto';
     font-style: normal;
@@ -391,13 +392,13 @@ h3 {
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
 }
 
 .map1 {
     margin-top: 25px;
-    background: #F13C6E;
-    border: 2px solid #FFFFFF;
-    border-radius: 30px;
     width: 170px;
     margin-right: 80px;
     display: block;
@@ -472,22 +473,22 @@ h4 {
 }
 
 
-.button:hover {
+.button1:hover {
     color: azure;
     background-color: #c9768d;
 }
 
-.button3:hover {
+.button4:hover {
     color: azure;
     background-color: #c9768d;
 }
 
-.buy1:hover {
+.buy:hover {
     color: azure;
     background-color: #c9768d;
 }
 
-.map1:hover {
+.map:hover {
     color: azure;
     background-color: #c9768d;
 }

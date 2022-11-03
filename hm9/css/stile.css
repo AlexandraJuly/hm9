@@ -74,6 +74,7 @@ li {
 
 .button {
     display: inline-block;
+    margin-bottom: 40px;
 }
 
 .button1 {
@@ -147,6 +148,7 @@ hr {
     background-color: #EFEFEF;
     color: #EFEFEF;
     height: 1px;
+    margin: 0 auto;
 }
 
 .menu {
@@ -154,6 +156,7 @@ hr {
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .sekt2 {
@@ -437,6 +440,7 @@ h4 {
 .menu1 {
     margin-top: 25px;
     padding-inline-start: 0px;
+    margin-bottom: 60px;
 }
 
 .img6{
